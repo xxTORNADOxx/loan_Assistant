@@ -85,7 +85,7 @@ def display_financial_tips(language_code):
 # Streamlit App
 def main():
     st.set_page_config(page_title="Multilingual Loan Advisor", page_icon="🏠")
-    st.title(translate_text("SBI Home Loan Application Form 🏠", "en"))
+    st.title(translate_text("System Home Loan Application Form 🏠", "en"))
 
     # Language selection
     languages = {
